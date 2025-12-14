@@ -1,0 +1,106 @@
+/* ========================================================== */
+/* ESTILOS DEL CONTENEDOR PRINCIPAL Y FONDO */
+/* ========================================================== */
+
+/* Contenedor principal que maneja el fondo y la alineación */
+.detalle-pedido-page {
+    background-image: url('/portada2.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Contenedor central de los detalles para dar contraste */
+.detalle-pedido-box {
+    max-width: 800px;
+    width: 90%; /* Ajuste responsivo */
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.95); /* Blanco semi-transparente para blend */
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombra más fuerte */
+    font-family: Arial, sans-serif;
+}
+
+
+/* ========================================================== */
+/* TÍTULOS Y ESTADO */
+/* ========================================================== */
+
+/* Título principal del pedido */
+.detalle-pedido-box h1 {
+    font-size: 2.2rem;
+    color: #4A2C2A; /* Marrón oscuro para contraste */
+    border-bottom: 2px solid #D7CCC8; /* Marrón claro/Crema para la línea divisoria */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilo para el estado del pedido */
+.detalle-pedido-box p {
+    font-size: 1.1rem;
+    color: #6D4C41; /* Marrón medio */
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.detalle-pedido-box strong {
+    font-weight: 700;
+    color: #B05D2D; /* Color Naranja-marrón para destacar */
+}
+
+
+/* ========================================================== */
+/* SECCIÓN DETALLES DE PRODUCTOS */
+/* ========================================================== */
+
+.detalle-productos {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #F5F5F5; /* Fondo ligeramente gris para la sección */
+    border-radius: 8px;
+    border: 1px solid #ECEFF1;
+}
+
+.detalle-productos h4 {
+    font-size: 1.3rem;
+    color: #4A2C2A; /* Marrón oscuro */
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #BCAAA4; /* Marrón claro punteado */
+    padding-bottom: 5px;
+}
+
+.detalle-productos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.detalle-productos li {
+    background-color: #ffffff;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ========================================================== */
+/* TOTAL FINAL */
+/* ========================================================== */
+
+.detalle-pedido-box h3 {
+    font-size: 1.8rem;
+    color: #795548; /* Marrón suave para el texto del total */
+    text-align: right;
+    margin-top: 30px;
+    padding-top: 15px;
+    /* La línea divisoria ahora usa un marrón destacado */
+    border-top: 2px solid #B05D2D; 
+}
